@@ -1,0 +1,25 @@
+.logo {
+    padding: 10px;
+    width: 250px;
+    height: 100%;
+
+}
+
+.uk-navbar-toggle {
+    justify-content: unset;
+}
+
+.uk-navbar-right {
+    margin-right: 10%;
+}
+
+.close {
+
+    cursor: pointer;
+}
+
+@media(max-width:960px) {
+    .hide {
+        display: none;
+    }
+}
