@@ -29,7 +29,7 @@ export const Navbar = () => (
                         <li><a href="">Reservaciones</a></li>
                         <li><a href="">Prensa</a></li>
                         <li><a href="">Contacto</a></li>
-                        <li class="uk-nav-divider"></li>
+                        <li className="uk-nav-divider"></li>
                         <li><a uk-toggle="target: #sidenav"><span className="uk-margin-small-right" uk-icon="icon: close"></span> Cerrar</a></li>
                     </ul>
                 </div>

@@ -1,7 +1,8 @@
 import React, { Component } from 'react'
 import './Home.css'
+import Countdown, { zeroPad, getTimeDifference } from 'react-countdown-now';
 
-
+const date = new Date(2018, 10, 20);
 
 class HomeContainer extends Component {
     state = {
@@ -15,19 +16,31 @@ class HomeContainer extends Component {
 
 
         ],
-        shown: false
-    };
 
+    };
+    renderer = ({ days, hours, minutes, seconds, completed }) => {
+        if (completed) {
+            // Render a complete state
+            return <span>Ya está</span>;
+        } else {
+            // Render a countdown
+            return <div style={{ paddingBottom: '20px' }} className="uk-text-large uk-text-uppercase uk-text-center"> Faltan {days} días, {hours} horas, {minutes} minutos, {seconds} segundos para la apertura.</div>
+        }
+    }
     render() {
         return (
             <div>
                 <section className="uk-section-small">
                     <div className="uk-container">
+                        <Countdown
+                            date={date}
+                            renderer={this.renderer}
+                        />
                         <div className="uk-grid uk-child-width-1-4@l  uk-child-width-1-3@m uk-child-width-1-2@s uk-grid-small" uk-grid="masonry: true" uk-lightbox="animation: slide">
                             {this.state.images.map((image, index) => {
                                 return (
                                     <div key={index}>
-                                        <div class="uk-card uk-card-default">
+                                        <div className="uk-card uk-card-default">
                                             <a className="uk-inline" href={image ? image : "https://getuikit.com/docs/images/photo.jpg"} data-type="image" data-caption="<span uk-icon='icon:expand' id='expand'></span>">
                                                 <img src={image ? image : "https://getuikit.com/docs/images/photo.jpg"} alt="" />
                                             </a>
