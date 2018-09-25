@@ -23,3 +23,25 @@
         display: none;
     }
 }
+
+
+.nav-hover a:hover {
+    color: #666;
+}
+
+.nav-item a {
+    color: #999;
+    text-transform: uppercase;
+    transition: .1s ease-out;
+    transition-property: color, background-color;
+    text-decoration: none;
+    transition-property: color;
+}
+
+.nav-item a:hover {
+    color: #666;
+}
+
+.uk-overlay-primary {
+    background: rgba(34, 34, 34, .4);
+}

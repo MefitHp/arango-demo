@@ -1,0 +1,32 @@
+.outter{
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap; 
+	justify-content: center;
+	align-items: center;
+}
+
+.inner{
+	width: 50%;
+	margin: auto;
+}
+
+@media(max-width:960px) {
+	.inner{
+		width: 60%;
+	}
+}
+
+@media(max-width:1170px) {
+	.inner{
+		width: 60%;
+	}
+}
+
+@media(max-width:725px) {
+	.inner{
+		width: 75%;
+	}
+}
+
+
