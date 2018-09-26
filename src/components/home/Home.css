@@ -4,14 +4,17 @@
 	flex-wrap: wrap; 
 	justify-content: center;
 	align-items: center;
+	margin: 20px auto 50px;
 }
 
 .inner{
-	width: 50%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
 	margin: auto;
 }
 
-@media(max-width:960px) {
+/*@media(max-width:960px) {
 	.inner{
 		width: 60%;
 	}
@@ -28,5 +31,5 @@
 		width: 75%;
 	}
 }
-
+*/
 
