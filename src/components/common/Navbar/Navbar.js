@@ -7,7 +7,7 @@ export const Navbar = () => (
     <div>
         <nav className="uk-navbar-container uk-navbar-transparent hide" uk-navbar="" >
             <div className="uk-navbar-left">
-                <img src={Logo} className="logo" alt="" />
+                <img style={{ marginLeft: '10%' }} src={Logo} className="logo" alt="" />
             </div>
             <div className="uk-navbar-right">
                 <ul className="uk-navbar-nav">

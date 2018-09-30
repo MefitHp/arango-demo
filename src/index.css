@@ -1,5 +1,12 @@
+@font-face {
+  font-family: 'Arango';
+  font-style: normal;
+  font-weight: 400;
+  src: url('assets/MB\ Picture\ House\ One.ttf');
+}
+
 body {
+  font-family: 'Arango' !important;
   margin: 0;
   padding: 0;
-  font-family: sans-serif;
 }

@@ -1,6 +1,5 @@
 import React, { Component } from 'react'
 import './Home.css'
-import Countdown from 'react-countdown-now';
 
 const date = new Date(2018, 10, 20, 11);
 
@@ -20,15 +19,7 @@ class HomeContainer extends Component {
 
     };
 
-    renderer = ({ days, hours, minutes, seconds, completed }) => {
-        if (completed) {
-            // Render a complete state
-            return <span>Ya está</span>;
-        } else {
-            // Render a countdown
-            return <div style={{ paddingBottom: '20px' }} className="uk-text-large uk-text-uppercase uk-text-center"> Faltan {days} días, {hours} horas, {minutes} minutos, {seconds} segundos para la apertura.</div>
-        }
-    }
+
     render() {
         return (
             <div>
@@ -37,9 +28,9 @@ class HomeContainer extends Component {
                         <div className="uk-text-center">Abrimos el 20 de Noviembre a las 12:00.</div>
                         <div className="outter">
                             <div className="inner" uk-countdown="date: 2018-11-20T12:12:00+00:00">
-                                <span className="uk-countdown-number uk-countdown-days"></span> días. 
-                                <span className="uk-countdown-number uk-countdown-hours"></span> horas. 
-                                <span className="uk-countdown-number uk-countdown-minutes"></span> minutos. 
+                                <span className="uk-countdown-number uk-countdown-days"></span> días.
+                                <span className="uk-countdown-number uk-countdown-hours"></span> horas.
+                                <span className="uk-countdown-number uk-countdown-minutes"></span> minutos.
                             </div>
                         </div>
                         <div className="uk-grid uk-child-width-1-4@l  uk-child-width-1-3@m uk-child-width-1-2@s uk-grid-small" uk-grid="masonry: true" uk-lightbox="animation: slide">

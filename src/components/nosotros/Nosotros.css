@@ -1,0 +1,62 @@
+@font-face {
+    font-family: 'Arango';
+    font-style: normal;
+    font-weight: 400;
+    src: url('../../assets/MB\ Picture\ House\ One.ttf');
+}
+
+.uk-text-lead {
+    font-family: Arango;
+}
+
+.filosofia,
+.about-chef {
+    font-family: 'Arango' !important;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.img-box {
+    flex: 1;
+    padding: 50px;
+}
+
+.text-box {
+    flex: 2;
+}
+
+.text-justify {
+    text-align: justify;
+}
+
+.text-box p,
+h3 {
+    margin: 0;
+    padding: 0 80px;
+}
+
+
+@media(max-width:960px) {
+    .img-box {
+        flex: 1 1 100%;
+        order: 1;
+    }
+
+    .img-box img {
+        display: flex;
+        margin: 0 auto;
+    }
+
+    .text-box {
+        order: 2;
+        padding: 20px;
+    }
+
+    .text-box p,
+    h3 {
+        margin: 0;
+        padding: 0 5px;
+    }
+}
