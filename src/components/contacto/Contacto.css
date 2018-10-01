@@ -35,6 +35,6 @@
         margin: 30px auto;
     }
     .map iframe{
-        width: 300px !important;
+        width: 100%;
     }
 }

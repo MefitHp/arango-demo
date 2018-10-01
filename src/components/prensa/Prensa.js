@@ -22,30 +22,59 @@ class Prensa extends Component {
     }
     render() {
         return (
-            <div className="prensa">
-                <h2 className="bot">Prensa</h2>
-                <div className="card bot">
-                    <img src="https://static.wixstatic.com/media/495dbf5ead054840a9b405f5b8e55af3.jpg/v1/fill/w_1480,h_987,al_c,q_90,usm_0.66_1.00_0.01/495dbf5ead054840a9b405f5b8e55af3.webp" alt=""/>
-                    <div className="nota">
-                        <h3>Milenio</h3>
-                        <p>Arango: El autentico mexicano</p>
-                        <span>Octubre, 2018</span>
+            <div>
+                <div className="prensa none">
+                    <h2 className="bot">Prensa</h2>
+                    <div className="card bot">
+                        <img src="https://scontent.fmex6-1.fna.fbcdn.net/v/t1.0-9/40685322_1788581754570538_7568345997529579520_n.jpg?_nc_cat=110&_nc_eui2=AeFAu-xC_FdHaAaw4fp4Owybqb2QoK4e8gnUtyiezgFJH_eJYeMMsVODp_lc7Zph4DK7nApU7N_QfaZmvdEWFoCdtWy53CN4xRFIlJLWnjOpMw&oh=e378195dde1b2a308328cc882ba77906&oe=5C565AFF" alt=""/>
+                        <div className="nota">
+                            <h3>Milenio</h3>
+                            <p>Arango: El autentico mexicano</p>
+                            <span>Octubre, 2018</span>
+                        </div>
+                    </div>
+                    <div className="card bot">
+                        <img src="https://scontent.fmex6-1.fna.fbcdn.net/v/t1.0-9/40685322_1788581754570538_7568345997529579520_n.jpg?_nc_cat=110&_nc_eui2=AeFAu-xC_FdHaAaw4fp4Owybqb2QoK4e8gnUtyiezgFJH_eJYeMMsVODp_lc7Zph4DK7nApU7N_QfaZmvdEWFoCdtWy53CN4xRFIlJLWnjOpMw&oh=e378195dde1b2a308328cc882ba77906&oe=5C565AFF" alt=""/>
+                        <div className="nota">
+                            <h3>Milenio</h3>
+                            <p>Arango: El autentico mexicano</p>
+                            <span>Octubre, 2018</span>
+                        </div>
+                    </div>
+                    <div className="card bot">
+                        <img src="https://scontent.fmex6-1.fna.fbcdn.net/v/t1.0-9/40685322_1788581754570538_7568345997529579520_n.jpg?_nc_cat=110&_nc_eui2=AeFAu-xC_FdHaAaw4fp4Owybqb2QoK4e8gnUtyiezgFJH_eJYeMMsVODp_lc7Zph4DK7nApU7N_QfaZmvdEWFoCdtWy53CN4xRFIlJLWnjOpMw&oh=e378195dde1b2a308328cc882ba77906&oe=5C565AFF" alt=""/>
+                        <div className="nota">
+                            <h3>Milenio</h3>
+                            <p>Arango: El autentico mexicano</p>
+                            <span>Octubre, 2018</span>
+                        </div>
                     </div>
                 </div>
-                <div className="card bot">
-                    <img src="https://static.wixstatic.com/media/495dbf5ead054840a9b405f5b8e55af3.jpg/v1/fill/w_1480,h_987,al_c,q_90,usm_0.66_1.00_0.01/495dbf5ead054840a9b405f5b8e55af3.webp" alt=""/>
-                    <div className="nota">
-                        <h3>Milenio</h3>
-                        <p>Arango: El autentico mexicano</p>
-                        <span>Octubre, 2018</span>
+                <div className="prensa display">
+                    <h2 >Prensa</h2>
+                    <div className="card ">
+                        <img src="https://scontent.fmex6-1.fna.fbcdn.net/v/t1.0-9/40685322_1788581754570538_7568345997529579520_n.jpg?_nc_cat=110&_nc_eui2=AeFAu-xC_FdHaAaw4fp4Owybqb2QoK4e8gnUtyiezgFJH_eJYeMMsVODp_lc7Zph4DK7nApU7N_QfaZmvdEWFoCdtWy53CN4xRFIlJLWnjOpMw&oh=e378195dde1b2a308328cc882ba77906&oe=5C565AFF" alt=""/>
+                        <div className="nota">
+                            <h3>Milenio</h3>
+                            <p>Arango: El autentico mexicano</p>
+                            <span>Octubre, 2018</span>
+                        </div>
                     </div>
-                </div>
-                <div className="card bot">
-                    <img src="https://static.wixstatic.com/media/495dbf5ead054840a9b405f5b8e55af3.jpg/v1/fill/w_1480,h_987,al_c,q_90,usm_0.66_1.00_0.01/495dbf5ead054840a9b405f5b8e55af3.webp" alt=""/>
-                    <div className="nota">
-                        <h3>Milenio</h3>
-                        <p>Arango: El autentico mexicano</p>
-                        <span>Octubre, 2018</span>
+                    <div className="card ">
+                        <img src="https://scontent.fmex6-1.fna.fbcdn.net/v/t1.0-9/40685322_1788581754570538_7568345997529579520_n.jpg?_nc_cat=110&_nc_eui2=AeFAu-xC_FdHaAaw4fp4Owybqb2QoK4e8gnUtyiezgFJH_eJYeMMsVODp_lc7Zph4DK7nApU7N_QfaZmvdEWFoCdtWy53CN4xRFIlJLWnjOpMw&oh=e378195dde1b2a308328cc882ba77906&oe=5C565AFF" alt=""/>
+                        <div className="nota">
+                            <h3>Milenio</h3>
+                            <p>Arango: El autentico mexicano</p>
+                            <span>Octubre, 2018</span>
+                        </div>
+                    </div>
+                    <div className="card ">
+                        <img src="https://scontent.fmex6-1.fna.fbcdn.net/v/t1.0-9/40685322_1788581754570538_7568345997529579520_n.jpg?_nc_cat=110&_nc_eui2=AeFAu-xC_FdHaAaw4fp4Owybqb2QoK4e8gnUtyiezgFJH_eJYeMMsVODp_lc7Zph4DK7nApU7N_QfaZmvdEWFoCdtWy53CN4xRFIlJLWnjOpMw&oh=e378195dde1b2a308328cc882ba77906&oe=5C565AFF" alt=""/>
+                        <div className="nota">
+                            <h3>Milenio</h3>
+                            <p>Arango: El autentico mexicano</p>
+                            <span>Octubre, 2018</span>
+                        </div>
                     </div>
                 </div>
             </div>
