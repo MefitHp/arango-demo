@@ -12,7 +12,7 @@ class Contacto extends Component {
         const config3 = {
             origin: 'bottom',
             duration: 800,
-            delay: 100,
+            delay: 50,
             distance: '100%',
             scale: 1,
             easing: 'ease',
