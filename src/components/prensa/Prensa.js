@@ -13,7 +13,7 @@ class Prensa extends Component {
             origin: 'bottom',
             duration: 800,
             delay: 100,
-            distance: '100%',
+            distance: '50%',
             scale: 1,
             easing: 'ease',
         }

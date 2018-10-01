@@ -20,10 +20,17 @@ class Reservaciones extends Component {
 
     render() {
         return (
-            <div className="reservaciones">
-                <h2 className="bot">Has tu reserva aquí</h2>
+            <div>
+                <div className="reservaciones none">
+                    <h2 className="bot">Has tu reserva aquí</h2>
 
+                </div>
+                <div className="reservaciones display">
+                    <h2 >Has tu reserva aquí</h2>
+
+                </div>
             </div>
+
         )
     }
 }
