@@ -8,3 +8,8 @@
     width: 50% !important;
     margin: 0 auto;
 }
+@media(max-width: 450px){
+    .menu{
+        width: 80% !important;
+    }
+}
