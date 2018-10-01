@@ -1,0 +1,28 @@
+.contacto h3{
+    font-size: 32px !important;
+    font-family: Arango !important ;
+    padding: 0;
+}
+.contacto p{
+    font-size: 20px;
+}
+.contacto{
+    width: 70%;
+    margin: 100px auto;
+
+}
+.flex{
+    display: flex;
+    flex-wrap: wrap;
+}
+.horarios{
+    width: 300px;
+    flex-grow: 1;
+
+}
+.map{
+    width: 500px;
+    flex-grow: 1;
+    display: flex;
+    justify-content:flex-end ;
+}

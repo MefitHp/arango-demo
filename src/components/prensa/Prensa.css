@@ -1,0 +1,41 @@
+.prensa{
+    width: 70%;
+    margin: 100px auto;
+
+}
+.prensa h2{
+    font-size: 32px !important;
+    font-family: Arango !important ;
+    margin-bottom: 50px;
+    text-align: center;
+}
+.prensa h3{
+    font-size: 24px !important;
+    font-family: Arango !important ;
+    padding: 0;
+    margin-bottom: 0;
+}
+.prensa p{
+    font-size: 20px;
+    margin-top: 0px;
+    margin-bottom: 0;
+}
+.prensa span{
+    font-size: 14px;
+    margin-top: 0;
+}
+.card{
+    width:100%;
+    height: 100px;
+    overflow: hidden;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 20px 0;
+}
+.card img{
+    width:200px;
+    height: auto;
+}
+.nota{
+    padding: 0 2%;
+}
