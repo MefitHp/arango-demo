@@ -26,3 +26,8 @@
     display: flex;
     justify-content:flex-end ;
 }
+@media (max-width: 425px) {
+    .contacto{
+        margin: 30px auto;
+    }
+}

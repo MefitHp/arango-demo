@@ -39,3 +39,8 @@
 .nota{
     padding: 0 2%;
 }
+@media (max-width: 425px) {
+    .prensa{
+        margin: 30px auto;
+    }
+}

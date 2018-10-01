@@ -9,3 +9,8 @@
     margin-bottom: 50px;
     text-align: center;
 }
+@media (max-width: 425px) {
+    .reservaciones{
+        margin: 30px auto;
+    }
+}
