@@ -4,7 +4,6 @@
     <list default="true" id="63ffab29-de49-403f-b894-c8ad824ae0f7" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.firebase/hosting.YnVpbGQ.cache" afterPath="$PROJECT_DIR$/.firebase/hosting.YnVpbGQ.cache" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/components/menu/MenuContainer.js" afterPath="$PROJECT_DIR$/src/components/menu/MenuContainer.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/components/prensa/Prensa.css" afterPath="$PROJECT_DIR$/src/components/prensa/Prensa.css" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -45,8 +44,8 @@
       <file leaf-file-name="MenuContainer.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/components/menu/MenuContainer.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="304">
-              <caret line="26" column="20" lean-forward="false" selection-start-line="26" selection-start-column="20" selection-end-line="26" selection-end-column="20" />
+            <state relative-caret-position="361">
+              <caret line="29" column="38" lean-forward="false" selection-start-line="29" selection-start-column="38" selection-end-line="29" selection-end-column="38" />
               <folding>
                 <element signature="e#0#38#0" expanded="true" />
               </folding>
@@ -507,12 +506,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1538368074594</updated>
-      <workItem from="1538368077246" duration="10363000" />
+      <workItem from="1538368077246" duration="10450000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="10363000" />
+    <option name="totallyTimeSpent" value="10450000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="60" y="23" width="1240" height="777" extended-state="0" />
@@ -735,8 +734,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/components/menu/MenuContainer.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="304">
-          <caret line="26" column="20" lean-forward="false" selection-start-line="26" selection-start-column="20" selection-end-line="26" selection-end-column="20" />
+        <state relative-caret-position="361">
+          <caret line="29" column="38" lean-forward="false" selection-start-line="29" selection-start-column="38" selection-end-line="29" selection-end-column="38" />
           <folding>
             <element signature="e#0#38#0" expanded="true" />
           </folding>
