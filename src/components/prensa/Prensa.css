@@ -43,4 +43,7 @@
     .prensa{
         margin: 30px auto;
     }
+    .card img{
+        width: 100%;
+    }
 }
