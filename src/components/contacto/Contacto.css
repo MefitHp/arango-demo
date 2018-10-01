@@ -26,8 +26,15 @@
     display: flex;
     justify-content:flex-end ;
 }
+.map iframe{
+    width: 500px;
+    height: 360px;
+}
 @media (max-width: 425px) {
     .contacto{
         margin: 30px auto;
+    }
+    .map iframe{
+        width: 300px !important;
     }
 }

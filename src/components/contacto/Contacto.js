@@ -36,7 +36,7 @@ class Contacto extends Component {
                         </div>
                     </div>
                     <div className="map bot">
-                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3762.4497161888457!2d-99.15485238536316!3d19.436168086882297!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x85d1f8d3bd190007%3A0xe948db4a7a4ceb23!2sDe+La+Rep%C3%BAblica+157%2C+Tabacalera%2C+06030+Ciudad+de+M%C3%A9xico%2C+CDMX!5e0!3m2!1ses-419!2smx!4v1538369504370" width="500" height="360" frameborder="0" style={{border:"0"}} allowfullscreen></iframe>
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3762.4497161888457!2d-99.15485238536316!3d19.436168086882297!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x85d1f8d3bd190007%3A0xe948db4a7a4ceb23!2sDe+La+Rep%C3%BAblica+157%2C+Tabacalera%2C+06030+Ciudad+de+M%C3%A9xico%2C+CDMX!5e0!3m2!1ses-419!2smx!4v1538369504370"  frameborder="0" style={{border:"0"}} allowfullscreen></iframe>
                     </div>
                 </div>
 
