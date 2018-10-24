@@ -22,8 +22,14 @@ export const NosotrosContainer = () => (
             </div>
             <div className="about-chef">
                 <div className="text-box">
-                    <h3 className="uk-text-lead uk-text-uppercase">Acerca del chef</h3>
-                    <p className="text-justify uk-text-muted">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos dolorum numquam magnam magni, natus voluptatum esse quasi iusto sequi molestiae voluptatem repudiandae ipsa quibusdam iure. Odio ea vel et dolores itaque perferendis expedita sunt quisquam consectetur neque.</p>
+                    {/* <h3 className="uk-text-lead uk-text-uppercase">Acerca del chef</h3>
+                    <p className="text-justify uk-text-muted">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos dolorum numquam magnam magni, natus voluptatum esse quasi iusto sequi molestiae voluptatem repudiandae ipsa quibusdam iure. Odio ea vel et dolores itaque perferendis expedita sunt quisquam consectetur neque.</p> */}
+                    <div class="container well- quote author">
+                        <blockquote>
+                            <p id="quote" class="text-center">Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique non tempore repellendus natus. Illo beatae atque porro! Eveniet deserunt adipisci, labore eaque facere aliquid quidem voluptas tenetur ab minima architecto, beatae atque placeat vel fuga perferendis pariatur doloribus magnam, dolore similique reprehenderit repellendus molestiae est! Sint voluptate dolorum laborum iure!</p>
+                            <footer id="author" class="text-right random-quote-author">Author</footer>
+                        </blockquote>
+                    </div>
                 </div>
                 <div className="img-box">
                     <img style={{ margin: 'auto' }} src="https://images.unsplash.com/photo-1532635224-cf024e66d122?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=bd420ae5e15c23ec48bf9b60125b7dca&auto=format&fit=crop&w=750&q=80" alt="" />

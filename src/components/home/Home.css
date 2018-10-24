@@ -1,13 +1,13 @@
-.outter{
+.outter {
 	display: flex;
 	flex-direction: row;
-	flex-wrap: wrap; 
+	flex-wrap: wrap;
 	justify-content: center;
 	align-items: center;
 	margin: 20px auto 50px;
 }
 
-.inner{
+.inner {
 	display: flex;
 	justify-content: center;
 	align-items: center;
@@ -32,4 +32,3 @@
 	}
 }
 */
-
