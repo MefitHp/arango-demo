@@ -4,7 +4,27 @@
     justify-content: center;
     align-items: center;
 }
+<<<<<<< HEAD
 
 .box {
     width: 500px;
+=======
+.menu{
+    width: 50% !important;
+    margin: 0 auto;
+}
+.display{
+    display: none;
+}
+@media(max-width: 450px){
+    .menu{
+        width: 90% !important;
+    }
+    .display{
+        display: inherit;
+    }
+    .none{
+        display: none;
+    }
+>>>>>>> e16b2777d1102ab16b1a5095ae14cb9c37bcecc9
 }

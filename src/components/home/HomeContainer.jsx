@@ -1,5 +1,6 @@
 import React, { Component } from 'react'
 import './Home.css'
+import sr from './scrollReveal.js';
 
 const date = new Date(2018, 10, 20, 11);
 
@@ -18,19 +19,51 @@ class HomeContainer extends Component {
         ],
 
     };
+    componentDidMount () {
+        window.scroll(0, 0)
+        const config = {
+            origin: 'right',
+            duration: 1000,
+            delay: 150,
+            distance: '100%',
+            scale: 1,
+            easing: 'ease',
+        }
+
+        const config2 = {
+            origin: 'left',
+            duration: 1000,
+            delay: 150,
+            distance: '100%',
+            scale: 1,
+            easing: 'ease',
+        }
+        const config3 = {
+            origin: 'bottom',
+            duration: 800,
+            delay: 100,
+            distance: '100%',
+            scale: 1,
+            easing: 'ease',
+        }
+
+        sr.reveal('.right', config2);
+        sr.reveal('.left', config);
+        sr.reveal('.bot', config3);
+    }
 
 
     render() {
         return (
-            <div>
+            <div style={{width:"90%", margin:"0 auto"}}>
                 <section className="uk-section-small">
                     <div className="uk-container">
-                        <div className="uk-text-center">Abrimos el 20 de Noviembre a las 12:00.</div>
+                        <div className="uk-text-center bot">Abrimos el 20 de Noviembre a las 12:00.</div>
                         <div className="outter">
-                            <div className="inner" uk-countdown="date: 2018-11-20T12:12:00+00:00">
-                                <span className="uk-countdown-number uk-countdown-days"></span> días.
-                                <span className="uk-countdown-number uk-countdown-hours"></span> horas.
-                                <span className="uk-countdown-number uk-countdown-minutes"></span> minutos.
+                            <div className="inner bot" uk-countdown="date: 2018-11-20T12:12:00+00:00">
+                                <span className="uk-countdown-number uk-countdown-days bot"></span> días.
+                                <span className="uk-countdown-number uk-countdown-hours bot"></span> horas.
+                                <span className="uk-countdown-number uk-countdown-minutes bot"></span> minutos.
                             </div>
                         </div>
                         <div className="uk-grid uk-child-width-1-4@l  uk-child-width-1-3@m uk-child-width-1-2@s uk-grid-small" uk-grid="masonry: true" uk-lightbox="animation: slide">
@@ -39,7 +72,7 @@ class HomeContainer extends Component {
                                     <div key={index}>
                                         <div className="uk-card uk-card-default">
                                             <a className="uk-inline" href={image ? image : "https://getuikit.com/docs/images/photo.jpg"} data-type="image" data-caption="<span uk-icon='icon:expand' id='expand'></span>">
-                                                <img src={image ? image : "https://getuikit.com/docs/images/photo.jpg"} alt="" />
+                                                <img className="bot" src={image ? image : "https://getuikit.com/docs/images/photo.jpg"} alt="" />
                                             </a>
                                         </div>
                                     </div>

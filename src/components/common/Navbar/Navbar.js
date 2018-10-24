@@ -4,10 +4,12 @@ import './Navbar.css'
 import { Link } from 'react-router-dom'
 
 export const Navbar = () => (
-    <div>
+    <div className="typo">
         <nav className="uk-navbar-container uk-navbar-transparent hide" uk-navbar="" >
             <div className="uk-navbar-left">
-                <img style={{ marginLeft: '10%' }} src={Logo} className="logo" alt="" />
+                <Link to="/">
+                    <img style={{ marginLeft: '10%' }} src={Logo} className="logo" alt="" />
+                </Link>
             </div>
             <div className="uk-navbar-right">
                 <ul className="uk-navbar-nav">

@@ -1,0 +1,40 @@
+.contacto h3{
+    font-size: 32px !important;
+    font-family: Arango !important ;
+    padding: 0;
+}
+.contacto p{
+    font-size: 20px;
+}
+.contacto{
+    width: 70%;
+    margin: 100px auto;
+
+}
+.flex{
+    display: flex;
+    flex-wrap: wrap;
+}
+.horarios{
+    width: 300px;
+    flex-grow: 1;
+
+}
+.map{
+    width: 500px;
+    flex-grow: 1;
+    display: flex;
+    justify-content:flex-end ;
+}
+.map iframe{
+    width: 500px;
+    height: 360px;
+}
+@media (max-width: 425px) {
+    .contacto{
+        margin: 30px auto;
+    }
+    .map iframe{
+        width: 100%;
+    }
+}
