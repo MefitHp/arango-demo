@@ -3,7 +3,7 @@ import './Reservaciones.css';
 import sr from '../home/scrollReveal';
 
 class Reservaciones extends Component {
-    componentDidMount () {
+    componentDidMount() {
         window.scroll(0, 0)
 
         const config3 = {
@@ -22,11 +22,10 @@ class Reservaciones extends Component {
         return (
             <div>
                 <div className="reservaciones none">
-                    <h2 className="bot">Has tu reserva aquí</h2>
+                    <h2 className="bot">Próximamente 🕰</h2>
 
                 </div>
                 <div className="reservaciones display">
-                    <h2 >Has tu reserva aquí</h2>
 
                 </div>
             </div>
