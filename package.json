@@ -3,6 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "firebase": "^5.5.7",
     "firebase-tools": "^4.2.1",
     "moment": "^2.22.2",
     "moment-precise-range-plugin": "^1.3.0",

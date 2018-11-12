@@ -29,8 +29,8 @@ class Contacto extends Component {
                         <div className="horarios">
                             <div>
                                 <h3 className="bot">Horario</h3>
-                                <p className="bot">Lunes a Sabado: 1:30 pm a 11:30 pm </p>
-                                <p className="bot">Domingo: 12:00 pm a 9:00 pm</p>
+                                <p className="bot">Domingo a Miércoles: 1:00 pm a 11:00 pm </p>
+                                <p className="bot">Jueves a Sábado: 1:00 pm a 1:00 am</p>
                                 <br />
                                 <h3 className="bot">Contacto</h3>
                                 <p className="bot">contacto@arango.com</p>
@@ -38,7 +38,8 @@ class Contacto extends Component {
                             </div>
                         </div>
                         <div className="map bot">
-                            <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15050.735241561906!2d-99.16222135!3d19.42606295!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x85d1f8d3bd190007%3A0x77943cfa36841cad!2spiso+7%2C+De+La+Rep%C3%BAblica+157%2C+Tabacalera%2C+06030+Ciudad+de+M%C3%A9xico%2C+CDMX!5e0!3m2!1ses!2smx!4v1540409817573" frameborder="0" style={{ border: "0" }} allowfullscreen></iframe>
+               
+                            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15050.469744390388!2d-99.1640399708374!3d19.428928640180988!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x42f387a1de967257!2sARANGO+Cocina+de+Ra%C3%ADces!5e0!3m2!1ses-419!2smx!4v1542000386220" frameborder="0" style={{ border: "0" }} allowfullscreen></iframe>
                         </div>
                     </div>
 

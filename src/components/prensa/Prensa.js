@@ -24,8 +24,10 @@ class Prensa extends Component {
         return (
             <div>
                 <div className="prensa none">
-                    <h2 className="bot">Prensa</h2>
-                    <div className="card bot">
+                   {/* <h2 className="bot">Prensa</h2>*/}
+                    <h2 className="bot">Próximamente 🕰</h2>
+
+                    {/*  <div className="card bot">
                         <img src="https://scontent.fmex6-1.fna.fbcdn.net/v/t1.0-9/40685322_1788581754570538_7568345997529579520_n.jpg?_nc_cat=110&_nc_eui2=AeFAu-xC_FdHaAaw4fp4Owybqb2QoK4e8gnUtyiezgFJH_eJYeMMsVODp_lc7Zph4DK7nApU7N_QfaZmvdEWFoCdtWy53CN4xRFIlJLWnjOpMw&oh=e378195dde1b2a308328cc882ba77906&oe=5C565AFF" alt=""/>
                         <div className="nota">
                             <h3>Milenio</h3>
@@ -75,7 +77,7 @@ class Prensa extends Component {
                             <p>Arango: El autentico mexicano</p>
                             <span>Octubre, 2018</span>
                         </div>
-                    </div>
+                    </div>*/}
                 </div>
             </div>
         )
