@@ -42,7 +42,7 @@ class NosotrosContainer extends Component {
                     <div className="filosofia">
                         <div className="img-box">
                             <img style={{ margin: 'auto' }}
-                                src="https://images.unsplash.com/photo-1528217580778-96e570819666?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=19a3a4640d3a734c3da937653a66c809&auto=format&fit=crop&w=401&q=80"
+                                src="https://scontent-dfw5-1.xx.fbcdn.net/v/t1.0-9/45946930_1880074218754624_2842297335155785728_n.jpg?_nc_cat=100&_nc_ht=scontent-dfw5-1.xx&oh=531c04fe5f2b60807fc9a7f23836ce1e&oe=5C6DA8C2"
                                 alt="" />
                         </div>
                         <div className="text-box">

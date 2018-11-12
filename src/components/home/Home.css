@@ -13,6 +13,10 @@
 	align-items: center;
 	margin: auto;
 }
+.contain{
+	width: 80%;
+	margin: 0 auto;
+}
 
 /*@media(max-width:960px) {
 	.inner{
