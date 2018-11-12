@@ -58,15 +58,16 @@ class HomeContainer extends Component {
             <div style={{width:"90%", margin:"0 auto"}}>
                 <section className="uk-section-small">
                     <div className="uk-container contain">
-                        <div className="uk-text-center bot">Abrimos el 20 de Noviembre a las 12:00.</div>
+                        <h2 className="bot" style={{fontFamily: 'Arango', textAlign:"center", fontSize:"50px"}}>Próximamente 🕰</h2>
+                        <div className="uk-text-center bot" style={{fontSize:"32px"}}>Abrimos el 1 de Diciembre a las 12:00 pm</div>
                         <div className="outter">
-                            <div className="inner bot" uk-countdown="date: 2018-11-20T12:12:00+00:00">
+                            <div className="inner bot" uk-countdown="date: 2018-12-01T12:12:00+00:00">
                                 <span className="uk-countdown-number uk-countdown-days bot"></span> días.
                                 <span className="uk-countdown-number uk-countdown-hours bot"></span> horas.
                                 <span className="uk-countdown-number uk-countdown-minutes bot"></span> minutos.
                             </div>
                         </div>
-                        <div className="uk-grid uk-child-width-1-4@l  uk-child-width-1-3@m uk-child-width-1-2@s uk-grid-small" uk-grid="masonry: true" uk-lightbox="animation: slide">
+                      {/*  <div className="uk-grid uk-child-width-1-4@l  uk-child-width-1-3@m uk-child-width-1-2@s uk-grid-small" uk-grid="masonry: true" uk-lightbox="animation: slide">
                             {this.state.images.map((image, index) => {
                                 return (
                                     <div key={index}>
@@ -78,7 +79,7 @@ class HomeContainer extends Component {
                                     </div>
                                 )
                             })}
-                        </div>
+                        </div>*/}
                     </div>
                 </section>
             </div>
