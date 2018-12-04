@@ -11,6 +11,14 @@
 .display{
     display: none;
 }
+.food{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.food p{
+    margin-top: 0;
+}
 @media(max-width: 450px){
     .menu{
         width: 90% !important;

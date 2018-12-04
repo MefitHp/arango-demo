@@ -58,7 +58,8 @@ class HomeContainer extends Component {
             <div style={{width:"90%", margin:"0 auto"}}>
                 <section className="uk-section-small">
                     <div className="uk-container contain">
-                        <h2 className="bot" style={{fontFamily: 'Arango', textAlign:"center", fontSize:"50px"}}>Próximamente 🕰</h2>
+                        <h1 style={{fontFamily: 'Arango', textAlign:"center", fontSize:"50px"}}>Reserva al <br/>+ 52 57 05 5034 </h1>
+                    {/*    <h2 className="bot" style={{fontFamily: 'Arango', textAlign:"center", fontSize:"50px"}}>Próximamente 🕰</h2>
                         <div className="uk-text-center bot" style={{fontSize:"32px"}}>Abrimos el 1 de Diciembre a las 12:00 pm</div>
                         <div className="outter">
                             <div className="inner bot" uk-countdown="date: 2018-12-01T12:12:00+00:00">
@@ -66,7 +67,7 @@ class HomeContainer extends Component {
                                 <span className="uk-countdown-number uk-countdown-hours bot"></span> horas.
                                 <span className="uk-countdown-number uk-countdown-minutes bot"></span> minutos.
                             </div>
-                        </div>
+                        </div>*/}
                       {/*  <div className="uk-grid uk-child-width-1-4@l  uk-child-width-1-3@m uk-child-width-1-2@s uk-grid-small" uk-grid="masonry: true" uk-lightbox="animation: slide">
                             {this.state.images.map((image, index) => {
                                 return (
