@@ -64,19 +64,33 @@ class NosotrosContainer extends Component {
                             </p>
                         </div>
                     </div>
+                    <br/>
+                    <br/>
                     <div className="about-chef">
                         <div className="text-box">
                             <h3 className="uk-text-lead uk-text-uppercase bot">Acerca del chef</h3>
-                            <p className="text-justify uk-text-muted bot">Lorem ipsum dolor sit amet consectetur adipisicing
-                                elit. Quos dolorum numquam magnam magni, natus voluptatum esse quasi iusto sequi
-                                molestiae voluptatem repudiandae ipsa quibusdam iure. Odio ea vel et dolores itaque
-                                perferendis expedita sunt quisquam consectetur neque.</p>
+                            <p className="text-justify uk-text-muted bot">
+                                <strong>Alejandro Cuatepotzo </strong>
+                                  es originario de la ciudad de Puebla, para este cocinero, la cocina representa pasión, creatividad y constancia.
+                                Dedicado a descubrir la magia de los sabores de México, “pues no hay nada más rico que refrescar la
+                                memoria, mucho más que si es con el paladar”. Fue reconocido en el año 2015 como “Rising Star Chef de
+                                Mexico” por el festival Wine and Food Festival de Cancún-Riviera Maya, uno de los festivales más importantes
+                                de Latinoamérica.
+                                <br/>
+                                También fue nominado por Travel and Leisure y Food and Travel México como una de las mejores propuestas culinarias del país.
+                                Discípulo del chef Enrique Olvera, ha llevado sus sabores y pasión por la comida mexicana a Londres, las Islas Turcas y Caicos, Colombia, Emiratos Árabes y EEUU.
+                                <br/>
+                                Compartió su cocina y conocimientos con la chef Martha Ortiz y en su proyecto el restaurante Antonia Bistro en San Miguel de Allende, Gto y el recién inagurado ARANGO Cocina de Raíces en la ciudad de México donde busca enaltecer la gastronomía mexicana a través de sus raíces poblanas.
+
+
+
+                            </p>
                         </div>
-                        <div className="img-box">
+                       {/* <div className="img-box">
                             <img style={{ margin: 'auto' }}
                                 src="https://images.unsplash.com/photo-1532635224-cf024e66d122?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=bd420ae5e15c23ec48bf9b60125b7dca&auto=format&fit=crop&w=750&q=80"
                                 alt="" />
-                        </div>
+                        </div>*/}
                     </div>
 
                 </div>
