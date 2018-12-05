@@ -22,7 +22,9 @@ class MenuContainer extends Component {
             <div>
                 <section className="uk-section-small menu none">
                     <div className="uk-container" >
-                        <h3 className="uk-text-lead bot" style={{ marginTop: "30px" }}>Menú</h3>
+                        <h3 className="uk-text-lead nn " style={{ marginTop: "30px", textAlign:"center" }}>Menú</h3>
+
+                        <h3 className="uk-text-lead bot n" style={{ marginTop: "30px",textAlign:"center" }}>Menú</h3>
                         <ul uk-accordion="multiple: true">
                             <li >
                                 <a className="uk-accordion-title bot" href="#">Para compartir</a>
@@ -57,7 +59,7 @@ class MenuContainer extends Component {
                                         <p>Chile pasilla relleno de tartar de atún</p><p>$245.00</p>
                                     </div>
                                     <div className="food">
-                                        <p>Láminas de pescado con aguachile de pina</p><p>$230.00</p>
+                                        <p>Láminas de pescado con aguachile de piña</p><p>$230.00</p>
                                     </div>
                                     <div className="food">
                                         <p>Tostada de amaranto con jaiba de concha suave</p><p>$210.00</p>
@@ -75,7 +77,7 @@ class MenuContainer extends Component {
                                 <a className="uk-accordion-title bot" href="#">Ensaladas</a>
                                 <div className="uk-accordion-content" style={{marginLeft:"20px"}}>
                                     <div className="food">
-                                        <p>Ensalada de hjas verdes con aderezo de elote asado</p><p>$135.00</p>
+                                        <p>Ensalada de hojas verdes con aderezo de elote asado</p><p>$135.00</p>
                                     </div>
                                     <div className="food">
                                         <p>Ensalada de betabeles y palmitos</p><p>$155.00</p>
@@ -91,61 +93,210 @@ class MenuContainer extends Component {
                             <li>
                                 <a className="uk-accordion-title bot" href="#">Sopa y pasta</a>
                                 <div className="uk-accordion-content" style={{marginLeft:"20px"}}>
-                                    <p className="">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat proident.</p>
+                                    <div className="food">
+                                        <p>Fideo Seco</p><p>$135.00</p>
+                                    </div>
+                                    <div className="food">
+                                        <p>Consomé de frijol tatemado y hongos</p><p>$145.00</p>
+                                    </div>
+                                    <div className="food">
+                                        <p>Arroz negro con huevo ponchado</p><p>$165.00</p>
+                                    </div>
                                 </div>
                             </li>
                             <li>
                                 <a className="uk-accordion-title bot" href="#">Principales</a>
                                 <div className="uk-accordion-content" style={{marginLeft:"20px"}}>
-                                    <p className="">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat proident.</p>
+                                    <div className="food">
+                                        <p>Chile-atole rojo con verduras de la temporada</p><p>$235.00</p>
+                                    </div>
+                                    <div className="food">
+                                        <p>Agnolottis Rellenos de espinacas y acelgas</p><p>$235.00</p>
+                                    </div>
+                                    <div className="food">
+                                        <p>Pesca del día sellada con granos de maíz "Pibinal" cocinado por 12 horas</p><p>$265.00</p>
+                                    </div>
+                                    <div className="food">
+                                        <p>Pollito de leche braseado</p><p>$285.00</p>
+                                    </div>
+                                    <div className="food">
+                                        <p>Lomo de vaca a las brasas con clemole (250g)</p><p>$460.00</p>
+                                    </div>
+                                    <div className="food">
+                                        <p>Chateaubriand rostizado en su jugo, tuétano, cacao (2 personas, 500g)</p><p>$880.00</p>
+                                    </div>
+                                    <div className="food">
+                                        <p>Cachete de res braseado con Huaxmole</p><p>$330.00</p>
+                                    </div>
+                                    <div className="food">
+                                        <p>Calabaza de Yucatán Rostizada con mole verde</p><p>$235.00</p>
+                                    </div>
+                                    <div className="food">
+                                        <p>Salmón sellado con caponata de berenjena</p><p>$310.00</p>
+                                    </div>
+                                    <div className="food">
+                                        <p>Estofado de mejillones de Ensenada en salsa de mantequilla con mostaza</p><p>$335.00</p>
+                                    </div>
+                                    <div className="food">
+                                        <p>Pato confitado con mole mancha manteles</p><p>$335.00</p>
+                                    </div>
+                                    <div className="food">
+                                        <p>Suadero al Bourguignon</p><p>$330.00</p>
+                                    </div>
+                                    <div className="food">
+                                        <p>Lechón confitado con salsa de chipotle tatemado</p><p>$380.00</p>
+                                    </div>
+                                    <div className="food">
+                                        <p>Rack de cordero con mole Barroco</p><p>$475.00</p>
+                                    </div>
                                 </div>
                             </li>
                             <li>
                                 <a className="uk-accordion-title bot" href="#">Dulce Final</a>
                                 <div className="uk-accordion-content" style={{marginLeft:"20px"}}>
-                                    <p className="">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat proident.</p>
+                                    <div className="food">
+                                        <p>Natilla celestia; de vainilla y rompope</p><p>$125.00</p>
+                                    </div>
+                                    <div className="food">
+                                        <p>Dulce de limón y coco</p><p>$130.00</p>
+                                    </div>
+                                    <div className="food">
+                                        <p>Tarta de manzana</p><p>$130.00</p>
+                                    </div>
+                                    <div className="food">
+                                        <p>Buñuelo de arroz y amaranto</p><p>$125.00</p>
+                                    </div>
+                                    <div className="food">
+                                        <p>Panqué de nata con helado de aceite de oliva</p><p>$130.00</p>
+                                    </div>
+                                    <div className="food">
+                                        <p>Loreto y guadalupe</p><p>$165.00</p>
+                                    </div>
+                                    <div className="food">
+                                        <p>Tabla de quesos artesanales</p><p>$180.00</p>
+                                    </div>
+
                                 </div>
                             </li>
                             <li>
                                 <a className="uk-accordion-title bot" href="#">Digestivos</a>
                                 <div className="uk-accordion-content" style={{marginLeft:"20px"}}>
-                                    <p className="">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat proident.</p>
+                                    <div className="food">
+                                        <p>Amaretto disarono</p><p>$90.00</p>
+                                    </div>
+                                    <div className="food">
+                                        <p>Chartreuse amarillo</p><p>$140.00</p>
+                                    </div>
+                                    <div className="food">
+                                        <p>Chartreuse verde</p><p>$130.00</p>
+                                    </div>
+                                    <div className="food">
+                                        <p>Corajito</p><p>$110.00</p>
+                                    </div>
+                                    <div className="food">
+                                        <p>Fernet</p><p>$110.00</p>
+                                    </div>
+                                    <div className="food">
+                                        <p>Frangelico</p><p>$110.00</p>
+                                    </div>
+                                    <div className="food">
+                                        <p>Licor 43</p><p>$110.00</p>
+                                    </div>
+                                    <div className="food">
+                                        <p>Oporto ferreira</p><p>$90.00</p>
+                                    </div>
+                                    <div className="food">
+                                        <p>Oporto taylor 10 anos</p><p>$250.00</p>
+                                    </div>
+                                    <div className="food">
+                                        <p>Pacháran basarana</p><p>$90.00</p>
+                                    </div>
+                                    <div className="food">
+                                        <p>Pacharán Zoco</p><p>$90.00</p>
+                                    </div>
                                 </div>
                             </li>
                             <li>
                                 <a className="uk-accordion-title bot" href="#">Bebidas</a>
                                 <div className="uk-accordion-content" style={{marginLeft:"20px"}}>
-                                    <p className="">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat proident.</p>
+                                    <div className="food">
+                                        <p>Café Americano</p><p>$45.00</p>
+                                    </div>
+                                    <div className="food">
+                                        <p>Espresso</p><p>$50.00</p>
+                                    </div>
+                                    <div className="food">
+                                        <p>Espresso Doble</p><p>$65.00</p>
+                                    </div>
+                                    <div className="food">
+                                        <p>Capuccino</p><p>$55.00</p>
+                                    </div>
+                                    <div className="food">
+                                        <p>Carajillo</p><p>$160.00</p>
+                                    </div>
+                                    <div className="food">
+                                        <p>Infusiones de la casa</p><p>$45.00</p>
+                                    </div>
+                                    <div className="food">
+                                        <p>Tomás - Casa editora de té</p><p>$55.00</p>
+                                    </div>
+                                </div>
+                            </li>
+                            <li>
+                                <a className="uk-accordion-title bot" href="#">Cerveza</a>
+                                <div className="uk-accordion-content" style={{marginLeft:"20px"}}>
+                                    <div className="food">
+                                        <p>Allende (355ml)</p><p>$85.00</p>
+                                    </div>
+                                    <div className="food">
+                                        <p>Bocanegra (355ml)</p><p>$80.00</p>
+                                    </div>
+                                    <div className="food">
+                                        <p>Cucapá Clásica (355ml)</p><p>$80.00</p>
+                                    </div>
+                                    <div className="food">
+                                        <p>Goose Island IPA (355ml)</p><p>$85.00</p>
+                                    </div>
+                                    <div className="food">
+                                        <p>Sofie Goose Island (355ml)</p><p>$85.00</p>
+                                    </div>
+                                    <div className="food">
+                                        <p>Corona (355ml)</p><p>$55.00</p>
+                                    </div>
+                                    <div className="food">
+                                        <p>Pacífico (355ml)</p><p>$55.00</p>
+                                    </div>
+                                    <div className="food">
+                                        <p>Victoria (355ml)</p><p>$55.00</p>
+                                    </div>
+                                    <div className="food">
+                                        <p>León (355ml)</p><p>$55.00</p>
+                                    </div>
+                                    <div className="food">
+                                        <p>Modelo Especial (355ml)</p><p>$65.00</p>
+                                    </div>
+                                    <div className="food">
+                                        <p>Modelo Ambar (355ml)</p><p>$65.00</p>
+                                    </div>
+                                    <div className="food">
+                                        <p>Negra Modelo (355ml)</p><p>$65.00</p>
+                                    </div>
+                                    <div className="food">
+                                        <p>Michelob Ultra (355ml)</p><p>$65.00</p>
+                                    </div>
+                                    <div className="food">
+                                        <p>Bud Light (355ml)</p><p>$65.00</p>
+                                    </div>
+                                    <div className="food">
+                                        <p>Stella (330ml)</p><p>$70.00</p>
+                                    </div>
+
                                 </div>
                             </li>
                         </ul>
                     </div>
                 </section>
-                <section className="uk-section-small menu display">
-                    <div className="uk-container" >
-                        <h3 className="uk-text-lead " style={{ marginTop: "30px" }}>Menú</h3>
-                        <ul uk-accordion="multiple: true">
-                            <li >
-                                <a className="uk-accordion-title " href="#">Alimentos</a>
-                                <div className="uk-accordion-content">
-                                    <p className="">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-                                </div>
-                            </li>
-                            <li>
-                                <a className="uk-accordion-title " href="#">Bebidas</a>
-                                <div className="uk-accordion-content">
-                                    <p className="">Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor reprehenderit.</p>
-                                </div>
-                            </li>
-                            <li>
-                                <a className="uk-accordion-title " href="#">Postres</a>
-                                <div className="uk-accordion-content">
-                                    <p className="">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat proident.</p>
-                                </div>
-                            </li>
-                        </ul>
-                    </div>
-                </section>
+
             </div>
         )
     }

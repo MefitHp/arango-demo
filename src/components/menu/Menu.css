@@ -19,6 +19,9 @@
 .food p{
     margin-top: 0;
 }
+.nn{
+    display: none;
+}
 @media(max-width: 450px){
     .menu{
         width: 90% !important;
@@ -26,7 +29,11 @@
     .display{
         display: inherit;
     }
-    .none{
+    .nn{
+        display: inherit;
+    }
+    .n{
         display: none;
     }
+
 }
