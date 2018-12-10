@@ -1,12 +1,12 @@
 .reservaciones{
     width: 70%;
-    margin: 100px auto;
+    margin: 50px auto;
 
 }
 .reservaciones h2{
     font-size: 32px !important;
     font-family: Arango !important ;
-    margin-bottom: 50px;
+    margin-bottom: 20px;
     text-align: center;
 }
 @media (max-width: 425px) {

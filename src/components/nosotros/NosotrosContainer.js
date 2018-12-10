@@ -41,9 +41,7 @@ class NosotrosContainer extends Component {
                 <div className="uk-container snappy-scroll">
                     <div className="filosofia">
                         <div className="img-box">
-                            <img style={{ margin: 'auto' }}
-                                src="https://scontent-dfw5-1.xx.fbcdn.net/v/t1.0-9/45946930_1880074218754624_2842297335155785728_n.jpg?_nc_cat=100&_nc_ht=scontent-dfw5-1.xx&oh=531c04fe5f2b60807fc9a7f23836ce1e&oe=5C6DA8C2"
-                                alt="" />
+
                         </div>
                         <div className="text-box">
                             <h3 className="uk-text-lead uk-text-uppercase bot">Somos la nueva revolución</h3>
@@ -67,7 +65,7 @@ class NosotrosContainer extends Component {
                     <br/>
                     <br/>
                     <div className="about-chef">
-                        <div className="text-box">
+                        <div className="texti-box">
                             <h3 className="uk-text-lead uk-text-uppercase bot">Acerca del chef</h3>
                             <p className="text-justify uk-text-muted bot">
                                 <strong>Alejandro Cuatepotzo </strong>

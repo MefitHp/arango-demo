@@ -16,6 +16,8 @@
 .about-chef {
     font-family: 'Arango' !important;
     display: flex;
+    width: 80%;
+    margin: 0 auto;
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
@@ -23,11 +25,16 @@
 
 .img-box {
     flex: 1;
-    padding: 50px;
+    background-image: url("../../assets/8.JPG");
+    height: 400px;
+    background-position: center;
+    background-size: cover;
 }
 
 .text-box {
     flex: 2;
+    padding: 0 0 0 30px;
+    box-sizing: border-box;
 }
 
 .text-justify {
@@ -38,7 +45,9 @@
 .text-box p,
 h3 {
     margin: 0;
-    padding: 0 80px;
+}
+.about-chef{
+    flex: 1;
 }
 
 

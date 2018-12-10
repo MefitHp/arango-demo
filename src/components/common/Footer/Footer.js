@@ -6,13 +6,13 @@ export const Footer = () => (
             <div className="uk-navbar-center">
                 <ul className="uk-navbar-nav">
                     <li>
-                        <a target="_blank" href="https://www.facebook.com/ArangoRestaurante/">
+                        <a target="blank" href="https://www.facebook.com/ArangoRestaurante/">
                             <span className="uk-icon uk-margin-small-right" uk-icon="icon: facebook"></span>
                             Facebook
                         </a>
                     </li>
                     <li>
-                        <a target="_blank" href="https://www.instagram.com/arango_cocinaderaices/">
+                        <a target="blank" href="https://www.instagram.com/arango_cocinaderaices/">
                             <span className="uk-icon uk-margin-small-right" uk-icon="icon: instagram"></span>
                             Instagram
                         </a>
