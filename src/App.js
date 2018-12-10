@@ -5,9 +5,11 @@ import { Footer } from './components/common/Footer/Footer'
 class App extends Component {
   render() {
     return (
-      <div>
-        <Navbar />
-        <Routes />
+      <div>            <Navbar />
+
+          <div style={{paddingTop:"100px"}}>
+              <Routes /></div>
+
         <Footer />
       </div>
     )
