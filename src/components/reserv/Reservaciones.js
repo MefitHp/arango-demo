@@ -3,6 +3,11 @@ import './Reservaciones.css';
 import sr from '../home/scrollReveal';
 
 class Reservaciones extends Component {
+
+    componentWillMount(){
+        document.createElement( )
+    }
+
     componentDidMount() {
         window.scroll(0, 0)
 
@@ -15,7 +20,7 @@ class Reservaciones extends Component {
             easing: 'ease',
         }
 
-        sr.reveal('.bot', config3);
+
     }
 
     render() {
