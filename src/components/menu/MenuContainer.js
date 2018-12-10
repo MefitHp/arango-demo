@@ -20,11 +20,11 @@ class MenuContainer extends Component {
     render() {
         return (
             <div>
-                <section className="uk-section-small menu none">
+                <section className="uk-section-small menu ">
                     <div className="uk-container" >
-                        <h3 className="uk-text-lead nn " style={{ marginTop: "30px", textAlign:"center" }}>Menú</h3>
+                        <h3 className="uk-text-lead display " style={{ marginTop: "30px", textAlign:"center" }}>Menú</h3>
 
-                        <h3 className="uk-text-lead bot n" style={{ marginTop: "30px",textAlign:"center" }}>Menú</h3>
+                        <h3 className="uk-text-lead bot none" style={{ marginTop: "30px",textAlign:"center" }}>Menú</h3>
                         <ul uk-accordion="multiple: true">
                             <li >
                                 <a className="uk-accordion-title" >Para compartir</a>
