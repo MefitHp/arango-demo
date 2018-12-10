@@ -7,7 +7,7 @@ class Reservaciones extends Component {
     setScript = () => {
         const script = document.createElement("script");
         script.src =
-            "//www.opentable.com/widget/reservation/loader?rid=1030873&type=standard&theme=wide&iframe=true&overlay=false&domain=com&lang=es-MX";
+            "//www.opentable.com.mx/widget/reservation/loader?rid=1030873&type=standard&theme=tall&iframe=true&overlay=false&domain=commx&lang=es-MX";
         const bliss = document.getElementById("bliss");
         bliss.appendChild(script);
 
