@@ -9,6 +9,9 @@
     margin-bottom: 20px;
     text-align: center;
 }
+/*
+Reservas
+*/
 @media (max-width: 425px) {
     .reservaciones{
         margin: 30px auto;
