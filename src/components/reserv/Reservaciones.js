@@ -34,6 +34,9 @@ class Reservaciones extends Component {
                 <div className="reservaciones none">
                     <h2 className="bot">Reservaciones</h2>
                 </div>
+                <div className="reservaciones display">
+                    <h2 >Reservaciones</h2>
+                </div>
                 <div
                     style={{ textAlign: "center", width: "80%", margin: "0 auto" }}
                     id="bliss"
