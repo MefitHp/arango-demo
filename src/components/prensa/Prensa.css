@@ -35,11 +35,21 @@
 .card img{
     max-width:200px;
     flex-grow: 1;
-    height: auto;
+    height: 100%;
 }
 .nota{
     padding: 0 2%;
 }
+a {
+    color: inherit !important;
+    text-decoration: none;
+}
+a:hover{
+    text-decoration: none;
+
+}
+
+
 @media (max-width: 425px) {
     .prensa{
         margin: 30px auto;

@@ -2,7 +2,6 @@ import React, { Component } from 'react'
 import './Home.css'
 import sr from './scrollReveal.js';
 import uno from '../../assets/1.JPG';
-import dos from '../../assets/2.JPG';
 import tres from '../../assets/3.JPG';
 import cuatro from '../../assets/4.JPG';
 import cinco from '../../assets/5.JPG';
@@ -24,7 +23,7 @@ class HomeContainer extends Component {
         loading:false,
         images: [
             uno,
-            dos,
+            uno,
             tres,
             cuatro,
             cinco,
