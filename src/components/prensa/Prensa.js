@@ -22,8 +22,8 @@ class Prensa extends Component {
     }
     render() {
         return (
-            <div>
-                <div className="prensa none">
+            <div className="prensa">
+                <div className="medios">
                     {/* <h2 className="bot">Prensa</h2>*/}
                     <a href="https://www.elfinanciero.com.mx/buena-vida/revolucion-a-la-carta-sabor-textura-y-color" target="blank">
                         <div className="card bot">
@@ -73,7 +73,8 @@ class Prensa extends Component {
                         <div className="card bot">
                             <img src="https://foodandtravel.mx/wp-content/uploads/2019/02/arangomural.jpg" alt="noticia1"/>
                             <div className="nota">
-                                <h3>HOT SPOTS DE ARANGO, COCINA DE RAÍCES
+                                <h3>Hot spots de Arango, Cocina de raíces
+
                                 </h3>
                                 <p>Food & Travel
                                 </p>
@@ -118,7 +119,7 @@ class Prensa extends Component {
                         <div className="card bot">
                             <img src="https://i2.wp.com/hotbook.com.mx/wp-content/uploads/2018/12/arango.jpg?w=1024&ssl=1" alt="noticia1"/>
                             <div className="nota">
-                                <h3>Recomendaciones para el fin de semana del 13 al 16 de diciembre</h3>
+                                <h3>Recomendaciones para el fin de semana <br/>del 13 al 16 de diciembre</h3>
                                 <p>Hootbook
                                 </p>
                                 <span>Febrero, 2019</span>
@@ -129,7 +130,7 @@ class Prensa extends Component {
                         <div className="card bot">
                             <img src="https://media.timeout.com/images/105387939/1372/772/image.jpg" alt="noticia1"/>
                             <div className="nota">
-                                <h3>Conoce los hot spots que recién abrieron sus puertas en la CDMX</h3>
+                                <h3>Conoce los hot spots que recién abrieron sus puertas <br/>en la CDMX</h3>
                                 <p>Robb Report
                                 </p>
                                 <span>Enero, 2019</span>
@@ -147,7 +148,8 @@ class Prensa extends Component {
                             </div>
                         </div>
                     </a>
-            </div></div>
+            </div>
+                    </div>
         )
     }
 }
