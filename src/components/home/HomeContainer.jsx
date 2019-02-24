@@ -12,6 +12,7 @@ import once from '../../assets/11.JPG';
 import doce from '../../assets/12.JPG';
 import trece from '../../assets/13.JPG';
 import catorce from '../../assets/14.JPG';
+import ocho from '../../assets/8.JPG';
 
 
 /*
@@ -23,16 +24,16 @@ class HomeContainer extends Component {
         loading:false,
         images: [
             uno,
-            uno,
-            tres,
+            ocho,
             cuatro,
+            tres,
             cinco,
             trece,
             siete,
             nueve,
             diez,
-            once,
             doce,
+            once,
 
             catorce
 
