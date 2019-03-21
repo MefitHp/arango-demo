@@ -34,7 +34,7 @@ class Contacto extends Component {
                                 <br />
                                 <h3 className="bot">Contacto</h3>
                                 <p className="bot">contacto@arango.com</p>
-                                <p className="bot">+52 57 05 5034 </p>
+                                <p className="bot">+52 55 57 05 5034 </p>
                             </div>
                         </div>
                         <div className="map bot">
