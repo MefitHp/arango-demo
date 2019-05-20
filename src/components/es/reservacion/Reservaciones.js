@@ -1,8 +1,8 @@
 import React, { Component } from "react";
-import "./Reservaciones.css";
-import sr from "../home/scrollReveal";
+import sr from "../inicio/scrollReveal";
+import {Navbar} from "../compartidos/Navbar";
 
-class Reservaciones extends Component {
+class Reservacion extends Component {
 
     setScript = () => {
         const script = document.createElement("script");
@@ -31,7 +31,8 @@ class Reservaciones extends Component {
     render() {
         return (
             <div>
-                <div className="reservaciones none">
+                <Navbar/>
+                <div className="reservaciones none" style={{paddingTop:"70px"}}>
                     <h2 className="bot">Reservaciones</h2>
                 </div>
                 <div className="reservaciones display">
@@ -47,4 +48,4 @@ class Reservaciones extends Component {
     }
 }
 
-export default Reservaciones;
+export default Reservacion;

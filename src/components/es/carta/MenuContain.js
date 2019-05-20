@@ -1,8 +1,8 @@
 import React, { Component } from 'react'
-import sr from '../home/scrollReveal.js';
-import './Menu.css';
+import sr from '../inicio/scrollReveal.js';
+import {Navbar} from "../compartidos/Navbar";
 
-class MenuContainer extends Component {
+class MenuContain extends Component {
     componentDidMount() {
         window.scroll(0, 0)
 
@@ -20,7 +20,8 @@ class MenuContainer extends Component {
     render() {
         return (
             <div>
-                <section className="uk-section-small menu ">
+                <Navbar/>
+                <section className="uk-section-small menu " style={{paddingTop:"70px"}}>
                     <div className="uk-container" >
                         <h3 className="uk-text-lead display " style={{ marginTop: "30px", textAlign:"center" }}>Menú</h3>
 
@@ -302,4 +303,4 @@ class MenuContainer extends Component {
     }
 }
 
-export default MenuContainer;
+export default MenuContain;

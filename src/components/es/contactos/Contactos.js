@@ -2,10 +2,10 @@
  * Created by brendaortega on 30/09/18.
  */
 import React, { Component } from 'react';
-import './Contacto.css';
-import sr from '../home/scrollReveal.js';
+import sr from '../inicio/scrollReveal.js';
+import {Navbar} from "../compartidos/Navbar";
 
-class Contacto extends Component {
+class Contactos extends Component {
     componentDidMount() {
         window.scroll(0, 0)
 
@@ -24,7 +24,8 @@ class Contacto extends Component {
     render() {
         return (
             <div>
-                <div className="contacto none">
+                <Navbar/>
+                <div className="contacto none" style={{paddingTop:"70px"}}>
                     <div className="flex">
                         <div className="horarios">
                             <div>
@@ -68,4 +69,4 @@ class Contacto extends Component {
     }
 }
 
-export default Contacto;
+export default Contactos;

@@ -1,18 +1,19 @@
 import React, { Component } from 'react'
 import './Home.css'
 import sr from './scrollReveal.js';
-import uno from '../../assets/1.JPG';
-import tres from '../../assets/3.JPG';
-import cuatro from '../../assets/4.JPG';
-import cinco from '../../assets/5.JPG';
-import siete from '../../assets/7.JPG';
-import nueve from '../../assets/9.JPG';
-import diez from '../../assets/10.JPG';
-import once from '../../assets/11.JPG';
-import doce from '../../assets/12.JPG';
-import trece from '../../assets/13.JPG';
-import catorce from '../../assets/14.JPG';
-import ocho from '../../assets/8.JPG';
+import uno from '../../../assets/1.JPG';
+import tres from '../../../assets/3.JPG';
+import cuatro from '../../../assets/4.JPG';
+import cinco from '../../../assets/5.JPG';
+import siete from '../../../assets/7.JPG';
+import nueve from '../../../assets/9.JPG';
+import diez from '../../../assets/10.JPG';
+import once from '../../../assets/11.JPG';
+import doce from '../../../assets/12.JPG';
+import trece from '../../../assets/13.JPG';
+import catorce from '../../../assets/14.JPG';
+import ocho from '../../../assets/8.JPG';
+import {Navbar} from "../common/Navbar/Navbar";
 
 
 /*
@@ -76,8 +77,9 @@ class HomeContainer extends Component {
 
     render() {
         return (
-
-            <div style={{width:"90%", margin:"0 auto"}}>
+        <section>
+            <Navbar/>
+            <div style={{width:"90%", margin:"0 auto", paddingTop:"70px"}}>
 
                 <section className="uk-section-small">
                     <div className="uk-container contain">
@@ -107,6 +109,7 @@ class HomeContainer extends Component {
                     </div>
                 </section>
             </div>
+        </section>
         )
     }
 }

@@ -1,14 +1,15 @@
 import React, { Component } from 'react';
 import Routes from './Routes'
-import { Navbar } from './components/common/Navbar/Navbar'
-import { Footer } from './components/common/Footer/Footer'
+import { Navbar } from './components/en/common/Navbar/Navbar'
+import { Footer } from './components/en/common/Footer/Footer'
 class App extends Component {
   render() {
     return (
-      <div>            <Navbar />
+      <div>
 
-          <div style={{paddingTop:"100px"}}>
-              <Routes /></div>
+          <div >
+              <Routes />
+          </div>
 
         <Footer />
       </div>

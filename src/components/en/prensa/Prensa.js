@@ -4,6 +4,7 @@
 import React, { Component } from 'react';
 import './Prensa.css';
 import sr from '../home/scrollReveal.js';
+import {Navbar} from "../common/Navbar/Navbar";
 
 class Prensa extends Component {
     componentDidMount () {
@@ -21,8 +22,11 @@ class Prensa extends Component {
         sr.reveal('.bot', config3);
     }
     render() {
+
         return (
-            <div className="prensa">
+            <section>
+                <Navbar/>
+            <div className="prensa" style={{paddingTop:"30px"}}>
                 <div className="medios">
                     {/* <h2 className="bot">Prensa</h2>*/}
                     <a href="https://www.elfinanciero.com.mx/buena-vida/revolucion-a-la-carta-sabor-textura-y-color" target="blank">
@@ -149,7 +153,7 @@ class Prensa extends Component {
                         </div>
                     </a>
             </div>
-                    </div>
+                    </div></section>
         )
     }
 }

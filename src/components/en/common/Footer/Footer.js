@@ -21,7 +21,6 @@ export const Footer = () => (
                             Arango Restaurant, {new Date().getFullYear()}™
                         </a>
 
-
             </div>
         </nav>
     </footer>

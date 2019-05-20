@@ -1,6 +1,5 @@
 import React from 'react'
 import Logo from '../../../assets/arango_logo.png'
-import './Navbar.css'
 import { Link } from 'react-router-dom'
 
 export const Navbar = () => (
@@ -13,12 +12,13 @@ export const Navbar = () => (
             </div>
             <div className="uk-navbar-right">
                 <ul className="uk-navbar-nav">
-                    <li><Link to="/">Inicio</Link></li>
-                    <li><Link to="/nosotros">Nosotros</Link></li>
-                    <li><Link to="/menu">Menu</Link></li>
-                    <li><Link to="/reservaciones">Reservación</Link></li>
-                    <li><Link to="/prensa">Prensa</Link></li>
-                    <li><Link to="/contacto">Contacto</Link></li>
+                    <li><Link to="/es/">Inicio</Link></li>
+                    <li><Link to="/es/nosotros">Nosotros</Link></li>
+                    <li><Link to="/es/menu">Menu</Link></li>
+                    <li><Link to="/es/eventos">Eventos</Link></li>
+                    <li><Link to="/es/reservaciones">Reservación</Link></li>
+                    <li><Link to="/es/prensa">Prensa</Link></li>
+                    <li><Link to="/es/contacto">Contacto</Link></li>
                 </ul>
             </div>
         </nav>
@@ -26,12 +26,12 @@ export const Navbar = () => (
             <div id="sidenav" uk-offcanvas="overlay: true">
                 <div className="uk-offcanvas-bar uk-flex uk-flex-column">
                     <ul className="uk-nav uk-nav-primary uk-nav-left uk-margin-auto-vertical">
-                        <li><Link to="/" uk-toggle="target: #sidenav">Inicio</Link></li>
-                        <li><Link to="/nosotros" uk-toggle="target: #sidenav">Nosotros</Link></li>
-                        <li><Link to="/menu" uk-toggle="target: #sidenav">Menu</Link></li>
-                        <li><Link to="/reservaciones" uk-toggle="target: #sidenav">Reservación</Link></li>
-                        <li><Link to="/prensa" uk-toggle="target: #sidenav">Prensa</Link></li>
-                        <li><Link to="/contacto" uk-toggle="target: #sidenav">Contacto</Link></li>
+                        <li><Link to="/es/" uk-toggle="target: #sidenav">Inicio</Link></li>
+                        <li><Link to="/es/nosotros" uk-toggle="target: #sidenav">Nosotros</Link></li>
+                        <li><Link to="/es/menu" uk-toggle="target: #sidenav">Menu</Link></li>
+                        <li><Link to="/es/reservaciones" uk-toggle="target: #sidenav">Reservación</Link></li>
+                        <li><Link to="/es/prensa" uk-toggle="target: #sidenav">Prensa</Link></li>
+                        <li><Link to="/es/contacto" uk-toggle="target: #sidenav">Contacto</Link></li>
                         <li className="uk-nav-divider" uk-toggle="target: #sidenav"></li>
                         <li><a uk-toggle="target: #sidenav"><span className="uk-margin-small-right" uk-icon="icon: close"></span> Cerrar</a></li>
                     </ul>

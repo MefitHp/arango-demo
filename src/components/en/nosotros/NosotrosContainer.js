@@ -1,6 +1,7 @@
 import React, { Component } from 'react'
 import './Nosotros.css'
 import sr from '../home/scrollReveal.js';
+import {Navbar} from "../common/Navbar/Navbar";
 
 class NosotrosContainer extends Component {
     state = {
@@ -36,8 +37,10 @@ class NosotrosContainer extends Component {
 
     render() {
         return (
+            <div>
 
-            <section className="uk-section-small">
+            <Navbar/>
+            <section className="uk-section-small" style={{paddingTop:"120px"}}>
                 <div className="uk-container snappy-scroll">
                     <div className="filosofia">
                         <div className="img-box">
@@ -92,7 +95,7 @@ class NosotrosContainer extends Component {
                     </div>
 
                 </div>
-            </section>
+            </section></div>
         )
     }
 }
