@@ -16,6 +16,7 @@ export const Navbar = () => (
                     <li><Link to="/en/">Home</Link></li>
                     <li><Link to="/en/about">About us</Link></li>
                     <li><Link to="/en/menu">Menu</Link></li>
+                    <li><Link to="/en/events">Events</Link></li>
                     <li><Link to="/en/reservation">Reservation</Link></li>
                     <li><Link to="/en/press">Press</Link></li>
                     <li><Link to="/en/contact">Contact</Link></li>
@@ -29,9 +30,11 @@ export const Navbar = () => (
                         <li><Link to="/en/" uk-toggle="target: #sidenav">Home</Link></li>
                         <li><Link to="/en/about" uk-toggle="target: #sidenav">About</Link></li>
                         <li><Link to="/en/menu" uk-toggle="target: #sidenav">Menu</Link></li>
+                        <li><Link to="/en/events" uk-toggle="target: #sidenav">Events</Link></li>
+
                         <li><Link to="/en/reservations" uk-toggle="target: #sidenav">Reservation</Link></li>
-                        <li><Link to="/en/prss" uk-toggle="target: #sidenav">Press</Link></li>
-                        <li><Link to="/contact" uk-toggle="target: #sidenav">Contact</Link></li>
+                        <li><Link to="/en/press" uk-toggle="target: #sidenav">Press</Link></li>
+                        <li><Link to="/contact" uk-toggle="target: #sidenav">Contact us</Link></li>
                         <li className="uk-nav-divider" uk-toggle="target: #sidenav"></li>
                         <li><a uk-toggle="target: #sidenav"><span className="uk-margin-small-right" uk-icon="icon: close"></span> Cerrar</a></li>
                     </ul>
@@ -40,7 +43,9 @@ export const Navbar = () => (
             <div style={{ display: 'flex', alignItems: 'center' }}>
                 <div style={{ paddingLeft: '10px' }} uk-toggle="target: #sidenav" uk-navbar-toggle-icon=""></div>
                 <div style={{ margin: '0 auto' }}>
-                    <img src={Logo} className="logo" alt="" />
+                    <Link to="/">
+                        <img src={Logo} className="logo" alt="" />
+                    </Link>
                 </div>
             </div>
 

@@ -40,39 +40,52 @@ class HomeContain extends Component {
         ],
 
     };
+
     componentDidMount () {
         window.scroll(0, 0)
-        const config = {
-            origin: 'right',
-            duration: 1000,
-            delay: 150,
-            distance: '100%',
-            scale: 1,
-            easing: 'ease',
-        }
 
-        const config2 = {
-            origin: 'left',
-            duration: 1000,
-            delay: 150,
-            distance: '100%',
-            scale: 1,
-            easing: 'ease',
-        }
-        const config3 = {
-            origin: 'bottom',
-            duration: 800,
-            delay: 100,
-            distance: '100%',
-            scale: 1,
-            easing: 'ease',
-        }
+        //console.log('mijo')
+        let div = document.createElement('div')
+        div.id = 'fb-root'
+        document.body.appendChild(div)
 
-        sr.reveal('.right', config2);
-        sr.reveal('.left', config);
-        sr.reveal('.bot', config3);
+
+        let script = document.createElement('script')
+        script.id = 'bliss'
+        script.async = true;
+
+        const text = document.createTextNode(`
+            window.fbAsyncInit = function() {
+            FB.init({
+                xfbml            : true,
+                version          : 'v3.2'
+            });
+        };
+
+        (function(d, s, id) {
+            var js, fjs = d.getElementsByTagName(s)[0];
+            if (d.getElementById(id)) return;
+            js = d.createElement(s); js.id = id;
+            js.src = 'https://connect.facebook.net/en_US/sdk/xfbml.customerchat.js';
+            fjs.parentNode.insertBefore(js, fjs);
+        }(document, 'script', 'facebook-jssdk'));
+            `)
+        script.appendChild(text)
+        document.body.appendChild(script)
+        let div2 = document.createElement('div')
+        //div2.classList = 'fb-customerchat'
+        div2.innerHTML = `
+            <div class="fb-customerchat"
+        attribution=setup_tool
+        page_id="204530763746823"
+        theme_color="#d4a88c"
+        logged_in_greeting="¡Hola! ¿Cómo podemos ayudarte?"
+        logged_out_greeting="¡Hola! ¿Cómo podemos ayudarte?">
+            </div>
+        `
+        document.body.appendChild(div2)
+
     }
-
 
     render() {
         return (

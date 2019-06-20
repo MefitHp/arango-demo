@@ -47,21 +47,21 @@ class NosotrosContainer extends Component {
 
                         </div>
                         <div className="text-box">
-                            <h3 className="uk-text-lead uk-text-uppercase bot">Somos la nueva revolución</h3>
+                            <h3 className="uk-text-lead uk-text-uppercase bot">We are the revolution</h3>
                             <p className="text-justify uk-text-muted bot">
-                                Doroteo Arango luchó por un ideal, por un México mejor, por un sueño; hoy nosotros los
-                                jóvenes de México tenemos la responsabilidad de seguir con esta lucha y hacerle un
-                                homenaje a nuestras raíces, gritarle a nuestro México que el sueño de Arango se puede
-                                cumplir todos los días de diferentes formas. <br /> <br />
+                                Doroteo Arango fought for an ideal, for a better country, for a dream; today the
+                                young people of Mexico have the responsibility to continue with this fight and make a
+                                homage to our roots, shout to our Mexico that the Arangos'' dream can be fulfilled
+                                every day in different ways. <br /> <br />
 
-                                Hoy luchamos por la igualdad, por la sustentabilidad y por ayudar a nuestras
-                                comunidades; luchamos por ayudar a erradicar el hambre y la pobreza, luchamos por ser
-                                una empresa socialmente responsable y promover el cambio en México; en cada plato se
-                                demuestra nuestra pasión, nuestras raíces y el orgullo de nuestros sabores.<br /> <br />
+                                Today we fight for equality, for sustainability and for helping our
+                                communities; We fight to help eradicate hunger and poverty, we fight to be
+                                a socially responsible company and promote change in Mexico; in each dish it
+                                it demonstrates our passion, our roots and the pride of our flavors. <br /> <br />
 
-                                En Arango nuestra visión va más allá de ser un restaurante extraordinario, sino un lugar
-                                que realmente enaltezca el ser mexicano, un lugar que demuestre a través de cada plato y
-                                cada sabor que se puede tener lo que algún día empezó como un sueño, un México mejor.
+                                In Arango our vision goes beyond being an extraordinary restaurant, but a place
+                                that really exalts the Mexican being, a place that shows through every dish and
+                                every flavor that can be had what one day began as a dream, a better Mexico.
                             </p>
                         </div>
                     </div>
@@ -72,18 +72,9 @@ class NosotrosContainer extends Component {
                             <h3 className="uk-text-lead uk-text-uppercase bot">Acerca del chef</h3>
                             <p className="text-justify uk-text-muted bot">
                                 <strong>Alejandro Cuatepotzo </strong>
-                                  es originario de la ciudad de Puebla, para este cocinero, la cocina representa pasión, creatividad y constancia.
-                                Dedicado a descubrir la magia de los sabores de México, “pues no hay nada más rico que refrescar la
-                                memoria, mucho más que si es con el paladar”. Fue reconocido en el año 2015 como “Rising Star Chef de
-                                Mexico” por el festival Wine and Food Festival de Cancún-Riviera Maya, uno de los festivales más importantes
-                                de Latinoamérica.
-                                <br/>
-                                También fue nominado por Travel and Leisure y Food and Travel México como una de las mejores propuestas culinarias del país.
-                                Discípulo del chef Enrique Olvera, ha llevado sus sabores y pasión por la comida mexicana a Londres, las Islas Turcas y Caicos, Colombia, Emiratos Árabes y EEUU.
-                                <br/>
-                                Compartió su cocina y conocimientos con la chef Martha Ortiz y en su proyecto el restaurante Antonia Bistro en San Miguel de Allende, Gto y el recién inagurado ARANGO Cocina de Raíces en la ciudad de México donde busca enaltecer la gastronomía mexicana a través de sus raíces poblanas.
-
-
+                                born in Puebla city, for this chef, the kitchen represents passion, creativity and perseverance. Dedicated to discovering the magic of the Mexico's flavors, "there is nothing richer than refreshing the memory, much more so with the palate". He was recognized in 2015 as "Rising Star Chef de México" for the Festival of Wine and Food Festival of Cancun-Riviera Maya, one of the most important festivals in Latin America.
+                                He was also nominated for Travel and Leisure and Food and Travel Mexico as one of the best culinary proposals in the country. Chef Enrique Olvera's booklet has brought his flavors and passion for Mexican food to London, the Turks and Caicos Islands, Colombia, the United Arab Emirates and the US.
+                                He share his cuisine and knowledge with the chef Martha Ortiz and in his project the restaurant Antonia Bistro in San Miguel de Allende, Gto and the newly inaugurated ARANGO Cocina de Raíces in Mexico City where the aim is to enhance Mexican cuisine through its roots poblanas.
 
                             </p>
                         </div>

@@ -40,7 +40,9 @@ export const Navbar = () => (
             <div style={{ display: 'flex', alignItems: 'center' }}>
                 <div style={{ paddingLeft: '10px' }} uk-toggle="target: #sidenav" uk-navbar-toggle-icon=""></div>
                 <div style={{ margin: '0 auto' }}>
+                    <Link to="/">
                     <img src={Logo} className="logo" alt="" />
+                    </Link>
                 </div>
             </div>
 

@@ -24,12 +24,12 @@ class MenuContainer extends Component {
                 <Navbar/>
                 <section className="uk-section-small menu " style={{paddingTop:"70px"}}>
                     <div className="uk-container" >
-                        <h3 className="uk-text-lead display " style={{ marginTop: "30px", textAlign:"center" }}>Menú</h3>
+                        <h3 className="uk-text-lead display " style={{ marginTop: "30px", textAlign:"center" }}>Menu</h3>
 
-                        <h3 className="uk-text-lead bot none" style={{ marginTop: "30px",textAlign:"center" }}>Menú</h3>
+                        <h3 className="uk-text-lead bot none" style={{ marginTop: "30px",textAlign:"center" }}>Menu</h3>
                         <ul uk-accordion="multiple: true">
                             <li >
-                                <a className="uk-accordion-title" >Para compartir</a>
+                                <a className="uk-accordion-title" >For share</a>
                                 <div className="uk-accordion-content" style={{marginLeft:"20px"}}>
                                     <div className="food">
                                         <p > Aguacate con chicharrón de res y cerdo</p><p>$135.00</p>
@@ -49,7 +49,7 @@ class MenuContainer extends Component {
                                 </div>
                             </li>
                             <li>
-                                <a className="uk-accordion-title" >Entradas</a>
+                                <a className="uk-accordion-title" >Starters</a>
                                 <div className="uk-accordion-content" style={{marginLeft:"20px"}}>
                                     <div className="food">
                                         <p className="">Peneque de frijol con acociles</p><p>$150.00</p>
@@ -76,7 +76,7 @@ class MenuContainer extends Component {
                                 </div>
                             </li>
                             <li>
-                                <a className="uk-accordion-title" >Ensaladas</a>
+                                <a className="uk-accordion-title" >Salads</a>
                                 <div className="uk-accordion-content" style={{marginLeft:"20px"}}>
                                     <div className="food">
                                         <p>Ensalada de hojas verdes con aderezo de elote asado</p><p>$135.00</p>
@@ -93,7 +93,7 @@ class MenuContainer extends Component {
                                 </div>
                             </li>
                             <li>
-                                <a className="uk-accordion-title" >Sopa y pasta</a>
+                                <a className="uk-accordion-title" >Soups</a>
                                 <div className="uk-accordion-content" style={{marginLeft:"20px"}}>
                                     <div className="food">
                                         <p>Fideo Seco</p><p>$135.00</p>
@@ -107,7 +107,7 @@ class MenuContainer extends Component {
                                 </div>
                             </li>
                             <li>
-                                <a className="uk-accordion-title " >Principales</a>
+                                <a className="uk-accordion-title " >Main courses</a>
                                 <div className="uk-accordion-content" style={{marginLeft:"20px"}}>
                                     <div className="food">
                                         <p>Chile-atole rojo con verduras de la temporada</p><p>$235.00</p>
@@ -154,7 +154,7 @@ class MenuContainer extends Component {
                                 </div>
                             </li>
                             <li>
-                                <a className="uk-accordion-title " >Dulce Final</a>
+                                <a className="uk-accordion-title " >Desserts</a>
                                 <div className="uk-accordion-content" style={{marginLeft:"20px"}}>
                                     <div className="food">
                                         <p>Natilla celestia; de vainilla y rompope</p><p>$125.00</p>
@@ -181,7 +181,7 @@ class MenuContainer extends Component {
                                 </div>
                             </li>
                             <li>
-                                <a className="uk-accordion-title " >Digestivos</a>
+                                <a className="uk-accordion-title " >Digestives</a>
                                 <div className="uk-accordion-content" style={{marginLeft:"20px"}}>
                                     <div className="food">
                                         <p>Amaretto disarono</p><p>$90.00</p>
@@ -219,7 +219,7 @@ class MenuContainer extends Component {
                                 </div>
                             </li>
                             <li>
-                                <a className="uk-accordion-title" >Bebidas</a>
+                                <a className="uk-accordion-title" >Drinks</a>
                                 <div className="uk-accordion-content" style={{marginLeft:"20px"}}>
                                     <div className="food">
                                         <p>Café Americano</p><p>$45.00</p>
@@ -245,7 +245,7 @@ class MenuContainer extends Component {
                                 </div>
                             </li>
                             <li>
-                                <a className="uk-accordion-title " >Cerveza</a>
+                                <a className="uk-accordion-title " >Beers</a>
                                 <div className="uk-accordion-content" style={{marginLeft:"20px"}}>
                                     <div className="food">
                                         <p>Allende (355ml)</p><p>$85.00</p>

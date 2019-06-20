@@ -30,11 +30,11 @@ class Contacto extends Component {
                     <div className="flex">
                         <div className="horarios">
                             <div>
-                                <h3 className="bot">Horario</h3>
-                                <p className="bot">Domingo a Miércoles: 1:00 pm a 11:00 pm </p>
-                                <p className="bot">Jueves a Sábado: 1:00 pm a 1:00 am</p>
+                                <h3 className="bot">Service hours</h3>
+                                <p className="bot">Sunday to Wednesday: 1:00 pm a 11:00 pm </p>
+                                <p className="bot">Thursday to Saturday: 1:00 pm a 1:00 am</p>
                                 <br />
-                                <h3 className="bot">Contacto</h3>
+                                <h3 className="bot">Contact us</h3>
                                 <p className="bot">contacto@arango.com</p>
                                 <p className="bot">+52 55 57 05 5034 </p>
                             </div>
@@ -50,13 +50,13 @@ class Contacto extends Component {
                     <div className="flex">
                         <div className="horarios">
                             <div>
-                                <h3 >Horario</h3>
-                                <p>Lunes a Sabado: 1:30 pm a 11:30 pm </p>
-                                <p >Domingo: 12:00 pm a 9:00 pm</p>
+                                <h3 >Service hours</h3>
+                                <p >Sunday to Wednesday: 1:00 pm a 11:00 pm </p>
+                                <p >Thursday to Saturday: 1:00 pm a 1:00 am</p>
                                 <br />
-                                <h3 >Contacto</h3>
-                                <p>contacto@arango.com</p>
-                                <p >+52 55 57 05 5034</p>
+                                <h3 >Contact us</h3>
+                                <p >contacto@arango.com</p>
+                                <p>+52 55 57 05 5034 </p>
                             </div>
                         </div>
                         <div className="map">

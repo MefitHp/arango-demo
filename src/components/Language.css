@@ -1,16 +1,35 @@
 .language{
     width: 100%;
     height: 100vh;
-    display: flex;
-    flex-wrap: wrap;
-    background-image: url('https://images.pexels.com/photos/1267320/pexels-photo-1267320.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260');
+    background-image: url('../assets/3.JPG');
     background-position: center;
     background-size: cover;
+    position: fixed;
+}
+.welcome{
+    color:white;
+    width: 100%;
+    height: 200px;
+    position: fixed;
+    text-align: center;
+    margin-top: 70px;
+}
+.cubierta{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: rgba(0,0,0,.6);
+}
+.float{
+    font-family: Arango !important;
+    font-size: 48px;
+    color:white;
 }
 .es{
     width: 50%;
     height: 100%;
-    background-color: rgba(0,0,0,.6);
+
     transition: all 1s ease;
     color:white;
     display: flex;
@@ -22,7 +41,6 @@
 .en{
     width: 50%;
     height: 100%;
-    background-color: rgba(0,0,0,.6);
     transition: all 1s ease;
     color:white;
     display: flex;
@@ -43,11 +61,28 @@
 }
 
 .es:hover, .en:hover{
-    background-color: rgba(0,0,0,.6);
     font-size: 4rem;
     cursor: pointer;
 }
 
 .es:hover hr, .en:hover hr{
     width: 100%;
+}
+
+@media(max-width: 435px){
+    .es, .en{
+        width: 100%;
+        height: 30%;
+        font-size: 2rem;
+    }
+    .es{
+        margin-top: 40%;
+    }
+    .float{
+        font-size: 32px;
+
+    }
+    .welcome{
+        margin-top: 50px;
+    }
 }

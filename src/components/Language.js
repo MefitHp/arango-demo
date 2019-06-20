@@ -6,6 +6,10 @@ class Language extends Component {
     render() {
         return (
             <div className="language">
+                <div className="cubierta">
+                <div className="welcome">
+                    <h2 className="float">¿En qué idioma prefieres visitar nuestro sitio?</h2>
+                </div>
                 <div className="es">
                     <Link to="/es/">
                             <p>Español</p>
@@ -18,6 +22,7 @@ class Language extends Component {
                         <p>Inglés</p>
                         <hr/>
                     </Link>
+                </div>
                 </div>
             </div>
         )

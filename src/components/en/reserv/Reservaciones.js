@@ -34,7 +34,7 @@ class Reservaciones extends Component {
             <div>
                 <Navbar/>
                 <div className="reservaciones none" style={{paddingTop:"70px"}}>
-                    <h2 className="bot">Reservaciones</h2>
+                    <h2 className="bot">Reservations</h2>
                 </div>
                 <div className="reservaciones display">
                     <h2 >Reservaciones</h2>

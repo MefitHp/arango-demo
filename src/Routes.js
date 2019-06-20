@@ -18,6 +18,7 @@ import Reservacion from "./components/es/reservacion/Reservaciones";
 import Eventos from "./components/es/eventos/Eventos";
 import Medios from "./components/es/medios/Medios";
 import Contactos from "./components/es/contactos/Contactos";
+import Events from "./components/en/events/Events"
 
 export const Router = () => (
     <Switch>
@@ -28,7 +29,7 @@ export const Router = () => (
         <Route path="/en/contact" component={Contacto}/>
         <Route path="/en/press" component={Prensa}/>
         <Route path="/en/reservation" component={Reservaciones} />
-
+        <Route path="/en/events" component={Events}/>
         <Route exact path="/es/" component={HomeContain}/>
         <Route path="/es/nosotros" component={ArangoContainer} />
         <Route path="/es/menu" component={MenuContain} />
