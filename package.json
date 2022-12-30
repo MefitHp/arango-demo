@@ -14,7 +14,7 @@
     "react-moment-countdown": "^0.3.0",
     "react-moment-proptypes": "^1.6.0",
     "react-router-dom": "^4.3.1",
-    "react-scripts": "1.1.5",
+    "react-scripts": "5.0.1",
     "scrollreveal": "^4.0.4",
     "styled-components": "^3.4.9",
     "uikit": "^3.0.0-rc.16"
